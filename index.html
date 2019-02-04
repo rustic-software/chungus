@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parallax background</title>
+    <link rel="icon" href="images/chungcover.jpg">
+    
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0px;
+        }
+  
+        .parallax { 
+            /* The image used */
+            background-image: url("https://i.ytimg.com/vi/8lE6Mort6ro/maxresdefault.jpg");
+  
+            /* Full height */
+            height: 60%; 
+  
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .parallax2 {
+            /* The image used */
+            background-image: url("https://webgameapp.com/web/wallpapers/big-chungus-video-game-cover-art/thumbnail/lg.jpg");
+            
+            /* Full height */
+            height: 60%; 
+  
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .gameTxt {
+            float: right;
+            width: 70%;
+            padding-right: 10px;
+        }
+
+        .chungcover {
+            width: 25%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <meta name="viewport" content="width=device-width, initiall-scale=1">
+    <div class="parallax"></div>
+
+    <div style="height:700px;background-color: white;font-size:36px">
+
+        <center><h1>Big Chungus: Game Of The Year Edition</h1></center>
+
+        <div class="gameinfo">
+            <img class="chungcover" src="images/chungcover.jpg">
+
+            <div class="gameTxt">
+                <p>Anounsing Big Chungus: Game Of The Year Edition.
+                Explore the awe and wonder of chung-land and meet a variety of colorful characters as you travel
+                through the land. Get the mystical power of big-chung, and defeat the evil slim-chung.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="parallax2"></div>
+
+    <div style="height: 600px; background-color: white; font-size:36px">
+        <center><h1>Watch the trailer:</h1></center>
+        
+        <center>
+            <video class="trailer" controls>
+                <source src="Nisemonogatari.mp4" type="video/mp4">
+            </video>
+        </center>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
